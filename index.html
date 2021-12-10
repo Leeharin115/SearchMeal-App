@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Search App</title>
+	<link rel="stylesheet" href="main.css">
+	<script src="main.js" defer></script>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+	<div class="title">
+		<h1>MENU</h1>
+	</div>
+	<div class="search-container">
+		<div class="searchInput">
+			<input type="text" id="searchWord" placeholder="Search for meals or keywords">
+			<button type="button" id="searchBtn" class="material-icons btn">search</button>
+		</div>
+		<button type="button" id="shuffleBtn" class="material-icons btn shuffle-btn">shuffle</button>
+	</div>
+	
+	<div id="result-title" class="result-title"></div>
+	<div id="meals" class="meals"></div>
+	<div id="single-meal"></div>
+
+	<!-- themealdb.com API 사용 -->
+
+	<!-- 검색 결과가 있는 경우 -->
+	<!-- 1. 문구 출력 Search results for '검색어': -->
+	<!-- 2. 이미지 박스 출력(사진에 마우스 올리면 오버레이 효과 및 이름 출력) -->
+	<!-- 3. 음식 메뉴 (사진, 이름, 요리법) -->
+
+	<!-- 검색 결과가 없는 경우 -->
+	<!-- There are no search results. Try again! 문구 출력 -->
+
+	<!-- shuffle을 할 경우 -->
+	<!-- 랜덤 음식 메뉴 (사진, 이름, 요리법) -->
+
+</body>
+</html>
